@@ -7,7 +7,9 @@
 			"!**/routeTree.gen.ts",
 			"!**/public/r",
 			"!**/registry.json",
-			"!design"
+			"!design",
+			"!**/.claude",
+			"!**/.impeccable"
 		]
 	},
 	"formatter": { "enabled": true, "indentStyle": "tab" },
