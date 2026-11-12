@@ -16,3 +16,9 @@ packages/liquikit/registry.json
 apps/lumen/out
 next-env.d.ts
 *.tsbuildinfo
+
+# Impeccable: machine-local hook settings, local workflow overrides and the
+# downloaded engine binary (the launcher fetches the pinned version again)
+.claude/settings.local.json
+.claude/skills/impeccable/scripts/bin/
+.impeccable/config.local.json
